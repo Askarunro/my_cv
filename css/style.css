@@ -5,7 +5,9 @@ aside {
   margin: 40px 0 40px 40px;
   padding-top: 40px;
 }
-
+aside > img{
+  width: 100%;
+}
 .skills-marker {
   color: #fb6d3a;
 }
