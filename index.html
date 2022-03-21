@@ -34,7 +34,9 @@
               </div>
               <div class="address__inner">
                 <span class="address__letter">E : </span>
-                <a class="address__link" href="mailto:paskra.y.a@gmail.com">&emsp; paskra.y.a@gmail.com</a>
+                <a class="address__link" href="mailto:paskra.y.a@gmail.com"
+                  >&emsp; paskra.y.a@gmail.com</a
+                >
               </div>
             </address>
           </div>
@@ -56,7 +58,9 @@
                 <span class="sidebar__item--color">Adaptive layout/Adaptive graphics</span>
               </li>
               <li class="sidebar__item"><span class="sidebar__item--color">GIT</span></li>
-              <li class="sidebar__item"><span class="sidebar__item--color">WebPack/Parcel</span></li>
+              <li class="sidebar__item">
+                <span class="sidebar__item--color">WebPack/Parcel</span>
+              </li>
               <li class="sidebar__item"><span class="sidebar__item--color">JavaScript</span></li>
               <li class="sidebar__item"><span class="sidebar__item--color">React.js</span></li>
             </ul>
@@ -67,7 +71,9 @@
             <ul class="sidebar__list">
               <li class="sidebar__item"><span class="sidebar__item--color">Teamwork</span></li>
               <li class="sidebar__item"><span class="sidebar__item--color">Communication</span></li>
-              <li class="sidebar__item"><span class="sidebar__item--color">Decision-making</span></li>
+              <li class="sidebar__item">
+                <span class="sidebar__item--color">Decision-making</span>
+              </li>
             </ul>
           </div>
         </div>
@@ -75,83 +81,89 @@
       <!-- Main contant section-->
       <div class="contant">
         <!-- About me section -->
-        <div class="About-Me">
-          <h3 class="h3-front-end">Junior Front-End Developer</h3>
-          <h1>YURIY PASKAR</h1>
-          <p class="About-Me-text">
+        <div class="about-me">
+          <p class="about-me__subtitle">Junior Front-End Developer</p>
+          <h1 class="about-me__title">YURIY PASKAR</h1>
+          <p class="about-me__text">
             I am a Junior Front-End developer from Ukraine. I focus on HTML5,CSS3, JS, React.
             Looking for aremote job. Development, practice and work for theresult are important for
             me. I intend to developinnovative technologies and deliver value to people.
           </p>
         </div>
         <!--My projects-->
-        <div class="Projects">
-          <h2>Projects</h2>
-          <ol class="riv">
-            <li>
-              &emsp;
-              <a href="https://dassongh.github.io/ice-cream-team-project/">IceCream</a>
-              <span>. . . . . . .</span>
-              [<span> HTML5, SCSS </span>]
+        <div class="projects">
+          <h2 class="contant__title">Projects</h2>
+          <ol class="projects__list">
+            <li class="projects__item">
+              <div class="projects__wrapper">
+                &emsp;
+                <a href="https://dassongh.github.io/ice-cream-team-project/">IceCream</a>
+                <span class="divider"></span>
+                [<span> HTML5, SCSS </span>]
+              </div>
             </li>
-            <li>
-              &emsp;
-              <a href="https://vikorlovskiy.github.io/Filmoteka-team-project/">Filmoteka</a>
-              <span>. . . . . . . </span>
-              [<span>HTML5, SCSS, Parcel, JavaScript </span>]
-            </li>
-            <li>
-              &emsp;
-              <a href="https://kidslike.goit.global/">https://kidslike.goit.global/ </a>
-              <span>. . . . . . . . . .</span>
-              [ <span>React.js, Node.js</span> ]
+            <li class="projects__item">
+              <div class="projects__wrapper">
+                &emsp;
+                <a href="https://vikorlovskiy.github.io/Filmoteka-team-project/">Filmoteka</a>
+                <span class="divider"></span>
+                [<span>HTML5, SCSS, Parcel, JavaScript </span>]
+              </div>
             </li>
           </ol>
         </div>
-
         <!-- My work experience -->
-        <div class="Work">
+        <div class="work">
           <!-- Company 3 -->
-          <h2>Work Experience</h2>
-          <h3>Junior Front-End Developer <span class="place">K.Masters</span></h3>
-          <p class="date">September 2021 - Present <span class="date-style">|</span> Ternopil</p>
-          <ul class="riv">
-            <li>
-              Creation PSD and Figma layouts (sites, landings, emails) with the use of modern
-              technologies;
-            </li>
-            <li>Create cross-browser, adaptive and mobile layout;</li>
-            <li>Optimization and refactoring of existing projects;</li>
-            <li>Support for existing sites.</li>
-          </ul>
+          <h2 class="contant__title">Work Experience</h2>
+          <div>
+            <h3 class="work__title">
+              Junior Front-End Developer <span class="place">K.Masters</span>
+            </h3>
+            <p class="date">September 2021 - Present <span class="date-style">|</span> Ternopil</p>
+            <ul class="work__list">
+              <li class="work__item">
+                Creation PSD and Figma layouts (sites, landings, emails) with the use of modern
+                technologies;
+              </li>
+              <li class="work__item">Create cross-browser, adaptive and mobile layout;</li>
+              <li class="work__item">Optimization and refactoring of existing projects;</li>
+              <li class="work__item">Support for existing sites.</li>
+            </ul>
+          </div>
           <!-- Company 2 -->
-          <h3>Fibre Engineer <span class="place">ISP</span></h3>
-          <p class="date">May 2016 – July 2021 <span class="date-style">|</span> Ternopil</p>
-          <ul class="riv">
-            <li>
-              Design and construction of FTTH and PON networks. connecting customers to the network;
-            </li>
-            <li>Troubleshooting and network recovery;</li>
-            <li>
-              Installation and splicing fiber optic, including fault finding on existing network
-            </li>
-            <li>
-              Live network Fusion splicing using Furukawa FITEL S178A v2, Inno ifs10, DVP740,
-              Coringer afs-48 or similar;
-            </li>
-            <li>
-              Splicing and testing of external optical fibres to the end customer premise in line
-              with quality standards using OTDR /JDSU/YOKOGAWA/CD/EXFO FTB200 or similar;
-            </li>
-            <li>Production of Fibre characterisation reports.</li>
-          </ul>
+          <div>
+            <h3 class="work__title">Fibre Engineer <span class="place">ISP</span></h3>
+            <p class="date">May 2016 – July 2021 <span class="date-style">|</span> Ternopil</p>
+            <ul class="work__list">
+              <li class="work__item">
+                Design and construction of FTTH and PON networks. connecting customers to the
+                network;
+              </li>
+              <li class="work__item">Troubleshooting and network recovery;</li>
+              <li class="work__item">
+                Installation and splicing fiber optic, including fault finding on existing network
+              </li>
+              <li class="work__item">
+                Live network Fusion splicing using Furukawa FITEL S178A v2, Inno ifs10, DVP740,
+                Coringer afs-48 or similar;
+              </li>
+              <li class="work__item">
+                Splicing and testing of external optical fibres to the end customer premise in line
+                with quality standards using OTDR /JDSU/YOKOGAWA/CD/EXFO FTB200 or similar;
+              </li>
+              <li class="work__item">Production of Fibre characterisation reports.</li>
+            </ul>
+          </div>
           <!-- Company 1 -->
-          <h3>Technical Support Engineer <span class="place">TENET</span></h3>
-          <p class="date">January 2014 – March 2015 <span class="date-style">|</span> Odessa</p>
+          <div>
+            <h3 class="work__title">Technical Support Engineer <span class="place">TENET</span></h3>
+            <p class="date">January 2014 – March 2015 <span class="date-style">|</span> Odessa</p>
+          </div>
         </div>
         <!--Education-->
         <div class="Education">
-          <h2>Education</h2>
+          <h2 class="contant__title">Education</h2>
           <p><span class="place">O.S. Popov Odessa National Academy of Telecommunications</span></p>
           <h3 class="h3-front-end">High School Diploma, Telecommunications</h3>
           <p class="date">September 2011 - January 2015 <span class="date-style">|</span> Odessa</p>
