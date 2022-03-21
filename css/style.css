@@ -1,3 +1,12 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ol,ul{
+  margin: 0;
+}
+
 aside {
   width: 70%;
   background-color: #1e2939;
@@ -6,7 +15,7 @@ aside {
   padding-top: 40px;
 }
 
-aside > img{
+aside > img {
   width: 100%;
 }
 
@@ -19,7 +28,7 @@ aside > img{
   text-align: left;
 }
 
-.sidebar__caption{
+.sidebar__caption {
   margin: 0 0 20px 0;
   font-weight: 700;
   font-size: 22px;
@@ -55,7 +64,8 @@ aside > img{
   transition: all 0.3s ease;
 }
 
-.address__link:hover, .address__link:focus{
+.address__link:hover,
+.address__link:focus {
   color: #a8a8a8;
 }
 
@@ -75,38 +85,66 @@ aside > img{
 }
 
 .contant {
+  display: flex;
+  flex-wrap: wrap;
+  grid-row-gap: 40px;
   margin-top: 40px;
   margin-bottom: 40px;
   padding-top: 100px;
 }
 
-.h3-front-end {
+.contant__title {
+  margin: 0 0 20px 0;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 22px;
+  line-height: 27px;
 }
 
-h1 {
+.about-me__title {
   font-weight: 700;
   font-size: 45px;
   line-height: 55px;
 }
 
-p {
+.about-me__subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.about-me__text {
   color: #595959;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
 }
 
-ol {
+.projects {
+  width: 485px;
+}
+
+.projects__list{
+  padding-left: 16px;
   font-weight: 700;
   font-size: 14px;
   line-height: 24px;
 }
 
-.riv {
+.work__title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.work__list {
   padding-left: 16px;
+}
+
+.work__list {
+  color: #595959;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 a {
@@ -124,36 +162,15 @@ span {
   color: #595959;
 }
 
-.Projects {
-  width: 485px;
-  margin-top: 40px;
-}
-
-.Work {
-  margin-top: 50px;
-}
-
 .date-style {
   color: black;
 }
 
-ul {
-  color: #595959;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-}
 .date {
   color: #a8a8a8;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
-}
-
-h3 {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
 }
 
 .place {
@@ -163,6 +180,22 @@ h3 {
   line-height: 20px;
 }
 
-.Education {
-  margin-top: 40px;
+
+
+.projects__wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.projects__wrapper * {
+  flex-shrink: 0
+}
+
+.projects__wrapper span.divider {
+  padding: 10px 0 0;
+  width: 100%;
+  flex-shrink: 1;
+  border-bottom: 1px dotted black;
+  margin: 5px
 }
